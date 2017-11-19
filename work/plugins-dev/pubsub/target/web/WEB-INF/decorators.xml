@@ -2,11 +2,13 @@
     <decorator name="setup" page="setup.jsp">
         <pattern>/setup/*.jsp</pattern>
 		<pattern>/plugins/sendmsg/sendservlet*</pattern>  
+		<pattern>/plugins/pubsub/config*</pattern>  
     </decorator>
     <decorator name="main" page="main.jsp">
           <pattern>/*.jsp</pattern>
           <pattern>/plugins</pattern>
 		  <pattern>/plugins/sendmsg/sendservlet*</pattern>  
+		  <pattern>/plugins/pubsub/config*</pattern>  
     </decorator>
     <decorator name="none"/>
     <excludes>
@@ -19,5 +21,6 @@
         <pattern>/plugin-icon.jsp*</pattern>
         <pattern>/js/jscalendar/i18n.jsp*</pattern>
 		<pattern>/plugins/sendmsg/sendservlet*</pattern>  
+		<pattern>/plugins/pubsub/config*</pattern>  
     </excludes>
 </decorators>

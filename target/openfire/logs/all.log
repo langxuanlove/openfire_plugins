@@ -1,0 +1,57 @@
+2017.11.19 18:45:38 INFO  [main]: org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2017.11.19 18:45:38 INFO  [main]: org.logicalcobwebs.proxool.ProxoolFacade - Proxool 0.9.0RC3+ (February 6 2008)
+2017.11.19 18:45:39 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Servers Cache
+2017.11.19 18:45:39 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Components Cache
+2017.11.19 18:45:39 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Users Cache
+2017.11.19 18:45:39 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing AnonymousUsers Cache
+2017.11.19 18:45:39 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing User Sessions
+2017.11.19 18:45:39 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Roster
+2017.11.19 18:45:39 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Multicast Service
+2017.11.19 18:45:39 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Message Size
+2017.11.19 18:45:39 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for VCard
+2017.11.19 18:45:39 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Privacy Lists
+2017.11.19 18:45:39 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer Cache
+2017.11.19 18:45:40 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Presence Cache
+2017.11.19 18:45:40 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Last Activity Cache
+2017.11.19 18:45:40 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2017.11.19 18:45:40 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2017.11.19 18:45:40 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Components Sessions
+2017.11.19 18:45:40 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Connection Managers Sessions
+2017.11.19 18:45:40 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Incoming Server Sessions
+2017.11.19 18:45:40 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Sessions by Hostname
+2017.11.19 18:45:40 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Validated Domains
+2017.11.19 18:45:40 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Client Session Info Cache
+2017.11.19 18:45:40 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities
+2017.11.19 18:45:40 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities Users
+2017.11.19 18:45:40 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Directed Presences
+2017.11.19 18:45:40 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for PEPServiceManager
+2017.11.19 18:45:40 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer
+2017.11.19 18:45:40 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Published Items
+2017.11.19 18:45:40 INFO  [main]: org.logicalcobwebs.proxool.openfire - Proxool statistics legend: "s - r  (a/t/o)" > s=served, r=refused (only shown if non-zero), a=active, t=total, o=offline (being tested)
+2017.11.19 18:45:40 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Features
+2017.11.19 18:45:40 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Items
+2017.11.19 18:45:40 INFO  [main]: org.jivesoftware.openfire.pubsub.PubSubModule - 发布-订阅域：pubsub.gnet-openfire
+2017.11.19 18:45:40 INFO  [main]: org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - 多用户聊天域：conference.gnet-openfire
+2017.11.19 18:45:40 INFO  [main]: org.jivesoftware.openfire.XMPPServer - Openfire 4.1.6 [2017-11-19 18:45:40]
+2017.11.19 18:45:41 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2017.11.19 18:45:41 INFO  [pool-3-thread-1]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2017.11.19 18:45:41 INFO  [pool-3-thread-1]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2017.11.19 18:45:41 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.AdminConsolePlugin - 管理平台开始监听:
+  http://gnet-openfire:9703
+  https://gnet-openfire:9705
+2017.11.19 18:45:41 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'admin'.
+2017.11.19 18:45:41 INFO  [pool-4-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'sendmsg'.
+2017.11.19 18:45:41 INFO  [pool-4-thread-2]: com.lulu.openfire.plugin.PubSubPlugin - initialize pubsub Plugin
+2017.11.19 18:45:41 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'pubsub'.
+2017.11.19 18:45:41 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginMonitor - Finished processing all plugins.
+2017.11.19 18:45:41 WARN  [pool-3-thread-1]: org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.11.19 18:45:41 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+2017.11.19 18:45:41 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+2017.11.19 18:45:41 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+2017.11.19 18:45:41 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+2017.11.19 18:45:41 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+2017.11.19 18:45:41 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2017.11.19 18:45:41 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
+2017.11.19 18:45:41 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+2017.11.19 18:45:41 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2017.11.19 18:45:52 INFO  [Jetty-QTP-AdminConsole-31]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Locked Out Accounts

@@ -1241,14 +1241,14 @@ env-entry, and ejb-ref elements should follow this fragment.
         <servlet-name>PluginServlet</servlet-name>
         <url-pattern>/plugins/*</url-pattern>
     </servlet-mapping>
-	<servlet>
+	<!-- <servlet>
 		<servlet-name>sendservlet</servlet-name>
 		<servlet-class>org.jivesoftware.openfire.plugin.sendmsg.SendMsgServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>sendservlet</servlet-name>
 		<url-pattern>/sendservlet/*</url-pattern>
-	</servlet-mapping>
+	</servlet-mapping> -->
     <servlet-mapping>
         <servlet-name>FaviconServlet</servlet-name>
         <url-pattern>/getFavicon</url-pattern>
