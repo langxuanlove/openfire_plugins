@@ -1,0 +1,1684 @@
+2017.11.18 15:41:19 INFO  [main]: org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2017.11.18 15:41:19 INFO  [main]: org.logicalcobwebs.proxool.ProxoolFacade - Proxool 0.9.0RC3+ (February 6 2008)
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Servers Cache
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Components Cache
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Users Cache
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing AnonymousUsers Cache
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing User Sessions
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Roster
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Multicast Service
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Message Size
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for VCard
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Privacy Lists
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer Cache
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Presence Cache
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Last Activity Cache
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Components Sessions
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Connection Managers Sessions
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Incoming Server Sessions
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Sessions by Hostname
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Validated Domains
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Client Session Info Cache
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities Users
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Directed Presences
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for PEPServiceManager
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Published Items
+2017.11.18 15:41:20 INFO  [main]: org.logicalcobwebs.proxool.openfire - Proxool statistics legend: "s - r  (a/t/o)" > s=served, r=refused (only shown if non-zero), a=active, t=total, o=offline (being tested)
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Features
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Items
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.openfire.pubsub.PubSubModule - 发布-订阅域：pubsub.gnet-openfire
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - 多用户聊天域：conference.gnet-openfire
+2017.11.18 15:41:20 INFO  [main]: org.jivesoftware.openfire.XMPPServer - Openfire 4.1.6 [2017-11-18 15:41:20]
+2017.11.18 15:41:21 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2017.11.18 15:41:21 INFO  [pool-3-thread-1]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2017.11.18 15:41:21 INFO  [pool-3-thread-1]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2017.11.18 15:41:21 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.AdminConsolePlugin - 管理平台开始监听:
+  http://gnet-openfire:9703
+  https://gnet-openfire:9705
+2017.11.18 15:41:21 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'admin'.
+2017.11.18 15:41:21 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'sendmsg'.
+2017.11.18 15:41:21 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginMonitor - Finished processing all plugins.
+2017.11.18 15:41:22 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2017.11.18 15:41:22 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Started.
+2017.11.18 15:41:22 WARN  [pool-3-thread-1]: org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.11.18 15:41:22 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+2017.11.18 15:41:22 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+2017.11.18 15:41:22 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+2017.11.18 15:41:22 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+2017.11.18 15:41:22 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+2017.11.18 15:41:22 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2017.11.18 15:41:22 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
+2017.11.18 15:41:22 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+2017.11.18 15:41:22 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2017.11.18 15:41:35 ERROR [Jetty-QTP-AdminConsole-29]: org.jivesoftware.openfire.OfflineMessageStore - 内部服务器错误
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:97)
+	at org.jivesoftware.util.PropertiesImpl.load(PropertiesImpl.java:46)
+	at org.jivesoftware.util.PropertyUtil.getProperty(PropertyUtil.java:33)
+	at org.jivesoftware.openfire.OfflineMessageStore.addMessage(OfflineMessageStore.java:191)
+	at org.jivesoftware.openfire.OfflineMessageStrategy.store(OfflineMessageStrategy.java:196)
+	at org.jivesoftware.openfire.OfflineMessageStrategy.storeOffline(OfflineMessageStrategy.java:149)
+	at org.jivesoftware.openfire.MessageRouter.routingFailed(MessageRouter.java:277)
+	at org.jivesoftware.openfire.spi.RoutingTableImpl.routePacket(RoutingTableImpl.java:273)
+	at org.jivesoftware.openfire.MessageRouter.route(MessageRouter.java:139)
+	at org.jivesoftware.openfire.spi.PacketRouterImpl.route(PacketRouterImpl.java:83)
+	at org.jivesoftware.openfire.spi.PacketRouterImpl.route(PacketRouterImpl.java:63)
+	at org.jivesoftware.openfire.component.InternalComponentManager.sendPacket(InternalComponentManager.java:288)
+	at org.jivesoftware.openfire.plugin.sendmsg.SendMsgServlet.doGet(SendMsgServlet.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:39)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2017.11.18 15:41:35 ERROR [Jetty-QTP-AdminConsole-29]: org.jivesoftware.openfire.container.PluginServlet - 
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:97)
+	at org.jivesoftware.util.PropertiesImpl.load(PropertiesImpl.java:46)
+	at org.jivesoftware.util.PropertyUtil.getProperty(PropertyUtil.java:33)
+	at org.jivesoftware.openfire.plugin.sendmsg.SendMsgServlet.doGet(SendMsgServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:39)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2017.11.18 15:41:45 ERROR [Jetty-QTP-AdminConsole-30]: org.jivesoftware.openfire.OfflineMessageStore - 内部服务器错误
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:97)
+	at org.jivesoftware.util.PropertiesImpl.load(PropertiesImpl.java:46)
+	at org.jivesoftware.util.PropertyUtil.getProperty(PropertyUtil.java:33)
+	at org.jivesoftware.openfire.OfflineMessageStore.addMessage(OfflineMessageStore.java:191)
+	at org.jivesoftware.openfire.OfflineMessageStrategy.store(OfflineMessageStrategy.java:196)
+	at org.jivesoftware.openfire.OfflineMessageStrategy.storeOffline(OfflineMessageStrategy.java:149)
+	at org.jivesoftware.openfire.MessageRouter.routingFailed(MessageRouter.java:277)
+	at org.jivesoftware.openfire.spi.RoutingTableImpl.routePacket(RoutingTableImpl.java:273)
+	at org.jivesoftware.openfire.MessageRouter.route(MessageRouter.java:139)
+	at org.jivesoftware.openfire.spi.PacketRouterImpl.route(PacketRouterImpl.java:83)
+	at org.jivesoftware.openfire.spi.PacketRouterImpl.route(PacketRouterImpl.java:63)
+	at org.jivesoftware.openfire.component.InternalComponentManager.sendPacket(InternalComponentManager.java:288)
+	at org.jivesoftware.openfire.plugin.sendmsg.SendMsgServlet.doGet(SendMsgServlet.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:39)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2017.11.18 15:41:45 ERROR [Jetty-QTP-AdminConsole-30]: org.jivesoftware.openfire.container.PluginServlet - 
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:97)
+	at org.jivesoftware.util.PropertiesImpl.load(PropertiesImpl.java:46)
+	at org.jivesoftware.util.PropertyUtil.getProperty(PropertyUtil.java:33)
+	at org.jivesoftware.openfire.plugin.sendmsg.SendMsgServlet.doGet(SendMsgServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:39)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2017.11.18 15:49:02 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginClassLoader - Unloading plugin JAR file /Users/Jikey/Downloads/workspace/openfire_src/target/openfire/plugins/sendmsg/lib/plugin-sendmsg-jspc.jar
+2017.11.18 15:49:02 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginClassLoader - Unloading plugin JAR file /Users/Jikey/Downloads/workspace/openfire_src/target/openfire/plugins/sendmsg/lib/plugin-sendmsg.jar
+2017.11.18 15:49:02 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginClassLoader - Unloading plugin JAR file /Users/Jikey/Downloads/workspace/openfire_src/target/openfire/plugins/sendmsg/lib/sendmsg-lib.jar
+2017.11.18 15:49:04 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully unloaded plugin 'sendmsg'.
+2017.11.18 15:49:04 INFO  [pool-45-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'sendmsg'.
+2017.11.18 15:49:04 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginMonitor - Finished processing all plugins.
+2017.11.18 15:51:04 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginClassLoader - Unloading plugin JAR file /Users/Jikey/Downloads/workspace/openfire_src/target/openfire/plugins/sendmsg/lib/plugin-sendmsg-jspc.jar
+2017.11.18 15:51:04 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginClassLoader - Unloading plugin JAR file /Users/Jikey/Downloads/workspace/openfire_src/target/openfire/plugins/sendmsg/lib/plugin-sendmsg.jar
+2017.11.18 15:51:04 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginClassLoader - Unloading plugin JAR file /Users/Jikey/Downloads/workspace/openfire_src/target/openfire/plugins/sendmsg/lib/sendmsg-lib.jar
+2017.11.18 15:51:06 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully unloaded plugin 'sendmsg'.
+2017.11.18 15:51:06 INFO  [pool-51-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'sendmsg'.
+2017.11.18 15:51:06 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginMonitor - Finished processing all plugins.
+2017.11.18 16:36:47 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginClassLoader - Unloading plugin JAR file /Users/Jikey/Downloads/workspace/openfire_src/target/openfire/plugins/sendmsg/lib/plugin-sendmsg-jspc.jar
+2017.11.18 16:36:47 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginClassLoader - Unloading plugin JAR file /Users/Jikey/Downloads/workspace/openfire_src/target/openfire/plugins/sendmsg/lib/plugin-sendmsg.jar
+2017.11.18 16:36:47 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginClassLoader - Unloading plugin JAR file /Users/Jikey/Downloads/workspace/openfire_src/target/openfire/plugins/sendmsg/lib/sendmsg-lib.jar
+2017.11.18 16:36:49 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully unloaded plugin 'sendmsg'.
+2017.11.18 16:36:49 INFO  [pool-188-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'sendmsg'.
+2017.11.18 16:36:49 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginMonitor - Finished processing all plugins.
+2017.11.18 16:40:29 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginClassLoader - Unloading plugin JAR file /Users/Jikey/Downloads/workspace/openfire_src/target/openfire/plugins/sendmsg/lib/plugin-sendmsg-jspc.jar
+2017.11.18 16:40:29 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginClassLoader - Unloading plugin JAR file /Users/Jikey/Downloads/workspace/openfire_src/target/openfire/plugins/sendmsg/lib/plugin-sendmsg.jar
+2017.11.18 16:40:29 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginClassLoader - Unloading plugin JAR file /Users/Jikey/Downloads/workspace/openfire_src/target/openfire/plugins/sendmsg/lib/sendmsg-lib.jar
+2017.11.18 16:40:31 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully unloaded plugin 'sendmsg'.
+2017.11.18 16:40:31 INFO  [pool-199-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'sendmsg'.
+2017.11.18 16:40:31 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginMonitor - Finished processing all plugins.
+2017.11.18 16:41:28 ERROR [Jetty-QTP-AdminConsole-30]: org.jivesoftware.openfire.OfflineMessageStore - 内部服务器错误
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:97)
+	at org.jivesoftware.util.PropertiesImpl.load(PropertiesImpl.java:46)
+	at org.jivesoftware.util.PropertyUtil.getProperty(PropertyUtil.java:33)
+	at org.jivesoftware.openfire.OfflineMessageStore.addMessage(OfflineMessageStore.java:191)
+	at org.jivesoftware.openfire.OfflineMessageStrategy.store(OfflineMessageStrategy.java:196)
+	at org.jivesoftware.openfire.OfflineMessageStrategy.storeOffline(OfflineMessageStrategy.java:149)
+	at org.jivesoftware.openfire.MessageRouter.routingFailed(MessageRouter.java:277)
+	at org.jivesoftware.openfire.spi.RoutingTableImpl.routePacket(RoutingTableImpl.java:273)
+	at org.jivesoftware.openfire.MessageRouter.route(MessageRouter.java:139)
+	at org.jivesoftware.openfire.spi.PacketRouterImpl.route(PacketRouterImpl.java:83)
+	at org.jivesoftware.openfire.spi.PacketRouterImpl.route(PacketRouterImpl.java:63)
+	at org.jivesoftware.openfire.component.InternalComponentManager.sendPacket(InternalComponentManager.java:288)
+	at org.jivesoftware.openfire.plugin.sendmsg.SendMsgServlet.doGet(SendMsgServlet.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:39)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2017.11.18 16:41:28 ERROR [Jetty-QTP-AdminConsole-30]: org.jivesoftware.openfire.container.PluginServlet - 
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:97)
+	at org.jivesoftware.util.PropertiesImpl.load(PropertiesImpl.java:46)
+	at org.jivesoftware.util.PropertyUtil.getProperty(PropertyUtil.java:33)
+	at org.jivesoftware.openfire.plugin.sendmsg.SendMsgServlet.doGet(SendMsgServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:39)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2017.11.18 16:41:37 INFO  [Thread-1]: org.jivesoftware.openfire.XMPPServer - Shutting down 49 modules ...
+2017.11.18 16:41:37 INFO  [Shutdown Hook]: org.logicalcobwebs.proxool.openfire - Shutting down 'openfire' pool immediately [Shutdown Hook]
+2017.11.18 16:41:37 INFO  [Shutdown Hook]: org.logicalcobwebs.proxool.PrototyperController - Stopping Prototyper thread
+2017.11.18 16:41:37 INFO  [Shutdown Hook]: org.logicalcobwebs.proxool.HouseKeeperController - Stopping HouseKeeper thread
+2017.11.18 16:41:37 INFO  [Thread-1]: org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2017.11.18 16:41:37 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Stopped.
+2017.11.18 16:41:37 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Stopped.
+2017.11.18 16:41:37 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Stopped.
+2017.11.18 16:41:37 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component] - Stopped.
+2017.11.18 16:41:37 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Stopped.
+2017.11.18 16:41:37 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Stopped.
+2017.11.18 16:41:37 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Stopped.
+2017.11.18 16:41:37 INFO  [Thread-1]: org.jivesoftware.openfire.http.HttpSessionManager - Stopping instance
+2017.11.18 16:41:37 INFO  [Thread-1]: org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service stopped
+2017.11.18 16:41:37 INFO  [Thread-1]: org.jivesoftware.openfire.XMPPServer - Shutting down plugins ...
+2017.11.18 16:41:37 INFO  [Thread-1]: org.jivesoftware.openfire.container.PluginManager - Shutting down. Unloading all installed plugins...
+2017.11.18 16:41:37 INFO  [Thread-1]: org.jivesoftware.openfire.container.PluginManager - Unloaded plugin 'admin'.
+2017.11.18 16:41:37 INFO  [Thread-1]: org.jivesoftware.openfire.container.PluginManager - Unloaded plugin 'sendmsg'.
+2017.11.18 16:41:37 INFO  [Thread-1]: org.jivesoftware.openfire.XMPPServer - Openfire stopped
+2017.11.18 16:41:37 INFO  [Thread-1]: org.jivesoftware.openfire.XMPPServer - Server halted
+2017.11.18 16:42:01 INFO  [main]: org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2017.11.18 16:42:01 INFO  [main]: org.logicalcobwebs.proxool.ProxoolFacade - Proxool 0.9.0RC3+ (February 6 2008)
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Servers Cache
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Components Cache
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Users Cache
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing AnonymousUsers Cache
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing User Sessions
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Roster
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Multicast Service
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Message Size
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for VCard
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Privacy Lists
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer Cache
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Presence Cache
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Last Activity Cache
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Components Sessions
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Connection Managers Sessions
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Incoming Server Sessions
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Sessions by Hostname
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Validated Domains
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Client Session Info Cache
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities Users
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Directed Presences
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for PEPServiceManager
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Published Items
+2017.11.18 16:42:02 INFO  [main]: org.logicalcobwebs.proxool.openfire - Proxool statistics legend: "s - r  (a/t/o)" > s=served, r=refused (only shown if non-zero), a=active, t=total, o=offline (being tested)
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Features
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Items
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.openfire.pubsub.PubSubModule - 发布-订阅域：pubsub.gnet-openfire
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - 多用户聊天域：conference.gnet-openfire
+2017.11.18 16:42:02 INFO  [main]: org.jivesoftware.openfire.XMPPServer - Openfire 4.1.6 [2017-11-18 16:42:02]
+2017.11.18 16:42:02 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2017.11.18 16:42:03 INFO  [pool-3-thread-1]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2017.11.18 16:42:03 INFO  [pool-3-thread-1]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2017.11.18 16:42:03 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.AdminConsolePlugin - 管理平台开始监听:
+  http://gnet-openfire:9703
+  https://gnet-openfire:9705
+2017.11.18 16:42:03 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'admin'.
+2017.11.18 16:42:03 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'sendmsg'.
+2017.11.18 16:42:03 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginMonitor - Finished processing all plugins.
+2017.11.18 16:42:03 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2017.11.18 16:42:03 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Started.
+2017.11.18 16:42:03 WARN  [pool-3-thread-1]: org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.11.18 16:42:03 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+2017.11.18 16:42:03 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+2017.11.18 16:42:03 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+2017.11.18 16:42:03 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+2017.11.18 16:42:03 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+2017.11.18 16:42:03 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2017.11.18 16:42:03 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
+2017.11.18 16:42:03 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+2017.11.18 16:42:03 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2017.11.18 16:42:06 ERROR [Jetty-QTP-AdminConsole-29]: org.jivesoftware.openfire.OfflineMessageStore - 内部服务器错误
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:97)
+	at org.jivesoftware.util.PropertiesImpl.load(PropertiesImpl.java:46)
+	at org.jivesoftware.util.PropertyUtil.getProperty(PropertyUtil.java:33)
+	at org.jivesoftware.openfire.OfflineMessageStore.addMessage(OfflineMessageStore.java:191)
+	at org.jivesoftware.openfire.OfflineMessageStrategy.store(OfflineMessageStrategy.java:196)
+	at org.jivesoftware.openfire.OfflineMessageStrategy.storeOffline(OfflineMessageStrategy.java:149)
+	at org.jivesoftware.openfire.MessageRouter.routingFailed(MessageRouter.java:277)
+	at org.jivesoftware.openfire.spi.RoutingTableImpl.routePacket(RoutingTableImpl.java:273)
+	at org.jivesoftware.openfire.MessageRouter.route(MessageRouter.java:139)
+	at org.jivesoftware.openfire.spi.PacketRouterImpl.route(PacketRouterImpl.java:83)
+	at org.jivesoftware.openfire.spi.PacketRouterImpl.route(PacketRouterImpl.java:63)
+	at org.jivesoftware.openfire.component.InternalComponentManager.sendPacket(InternalComponentManager.java:288)
+	at org.jivesoftware.openfire.plugin.sendmsg.SendMsgServlet.doGet(SendMsgServlet.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:39)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2017.11.18 16:42:06 ERROR [Jetty-QTP-AdminConsole-29]: org.jivesoftware.openfire.container.PluginServlet - 
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:97)
+	at org.jivesoftware.util.PropertiesImpl.load(PropertiesImpl.java:46)
+	at org.jivesoftware.util.PropertyUtil.getProperty(PropertyUtil.java:33)
+	at org.jivesoftware.openfire.plugin.sendmsg.SendMsgServlet.doGet(SendMsgServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:39)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2017.11.18 16:42:36 ERROR [Jetty-QTP-AdminConsole-30]: org.jivesoftware.openfire.OfflineMessageStore - 内部服务器错误
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:97)
+	at org.jivesoftware.util.PropertiesImpl.load(PropertiesImpl.java:46)
+	at org.jivesoftware.util.PropertyUtil.getProperty(PropertyUtil.java:33)
+	at org.jivesoftware.openfire.OfflineMessageStore.addMessage(OfflineMessageStore.java:191)
+	at org.jivesoftware.openfire.OfflineMessageStrategy.store(OfflineMessageStrategy.java:196)
+	at org.jivesoftware.openfire.OfflineMessageStrategy.storeOffline(OfflineMessageStrategy.java:149)
+	at org.jivesoftware.openfire.MessageRouter.routingFailed(MessageRouter.java:277)
+	at org.jivesoftware.openfire.spi.RoutingTableImpl.routePacket(RoutingTableImpl.java:273)
+	at org.jivesoftware.openfire.MessageRouter.route(MessageRouter.java:139)
+	at org.jivesoftware.openfire.spi.PacketRouterImpl.route(PacketRouterImpl.java:83)
+	at org.jivesoftware.openfire.spi.PacketRouterImpl.route(PacketRouterImpl.java:63)
+	at org.jivesoftware.openfire.component.InternalComponentManager.sendPacket(InternalComponentManager.java:288)
+	at org.jivesoftware.openfire.plugin.sendmsg.SendMsgServlet.doGet(SendMsgServlet.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:39)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2017.11.18 16:42:36 ERROR [Jetty-QTP-AdminConsole-30]: org.jivesoftware.openfire.container.PluginServlet - 
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:97)
+	at org.jivesoftware.util.PropertiesImpl.load(PropertiesImpl.java:46)
+	at org.jivesoftware.util.PropertyUtil.getProperty(PropertyUtil.java:33)
+	at org.jivesoftware.openfire.plugin.sendmsg.SendMsgServlet.doGet(SendMsgServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:39)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2017.11.18 16:45:46 INFO  [Shutdown Hook]: org.logicalcobwebs.proxool.openfire - Shutting down 'openfire' pool immediately [Shutdown Hook]
+2017.11.18 16:45:46 INFO  [Thread-1]: org.jivesoftware.openfire.XMPPServer - Shutting down 49 modules ...
+2017.11.18 16:45:46 INFO  [Shutdown Hook]: org.logicalcobwebs.proxool.PrototyperController - Stopping Prototyper thread
+2017.11.18 16:45:46 INFO  [Shutdown Hook]: org.logicalcobwebs.proxool.HouseKeeperController - Stopping HouseKeeper thread
+2017.11.18 16:45:46 INFO  [Thread-1]: org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2017.11.18 16:45:46 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Stopped.
+2017.11.18 16:45:46 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Stopped.
+2017.11.18 16:45:46 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Stopped.
+2017.11.18 16:45:46 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component] - Stopped.
+2017.11.18 16:45:46 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Stopped.
+2017.11.18 16:45:46 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Stopped.
+2017.11.18 16:45:46 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Stopped.
+2017.11.18 16:45:46 INFO  [Thread-1]: org.jivesoftware.openfire.http.HttpSessionManager - Stopping instance
+2017.11.18 16:45:46 INFO  [Thread-1]: org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service stopped
+2017.11.18 16:45:46 INFO  [Thread-1]: org.jivesoftware.openfire.XMPPServer - Shutting down plugins ...
+2017.11.18 16:45:46 INFO  [Thread-1]: org.jivesoftware.openfire.container.PluginManager - Shutting down. Unloading all installed plugins...
+2017.11.18 16:45:46 INFO  [Thread-1]: org.jivesoftware.openfire.container.PluginManager - Unloaded plugin 'admin'.
+2017.11.18 16:45:46 INFO  [Thread-1]: org.jivesoftware.openfire.container.PluginManager - Unloaded plugin 'sendmsg'.
+2017.11.18 16:45:46 INFO  [Thread-1]: org.jivesoftware.openfire.XMPPServer - Openfire stopped
+2017.11.18 16:45:46 INFO  [Thread-1]: org.jivesoftware.openfire.XMPPServer - Server halted
+2017.11.18 16:47:05 INFO  [main]: org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2017.11.18 16:47:05 INFO  [main]: org.logicalcobwebs.proxool.ProxoolFacade - Proxool 0.9.0RC3+ (February 6 2008)
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Servers Cache
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Components Cache
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Users Cache
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing AnonymousUsers Cache
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing User Sessions
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Roster
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Multicast Service
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Message Size
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for VCard
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Privacy Lists
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer Cache
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Presence Cache
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Last Activity Cache
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Components Sessions
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Connection Managers Sessions
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Incoming Server Sessions
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Sessions by Hostname
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Validated Domains
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Client Session Info Cache
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities Users
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Directed Presences
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for PEPServiceManager
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Published Items
+2017.11.18 16:47:07 INFO  [main]: org.logicalcobwebs.proxool.openfire - Proxool statistics legend: "s - r  (a/t/o)" > s=served, r=refused (only shown if non-zero), a=active, t=total, o=offline (being tested)
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Features
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Items
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.openfire.pubsub.PubSubModule - 发布-订阅域：pubsub.gnet-openfire
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - 多用户聊天域：conference.gnet-openfire
+2017.11.18 16:47:07 INFO  [main]: org.jivesoftware.openfire.XMPPServer - Openfire 4.1.6 [2017-11-18 16:47:07]
+2017.11.18 16:47:08 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2017.11.18 16:47:08 INFO  [pool-3-thread-1]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2017.11.18 16:47:08 INFO  [pool-3-thread-1]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2017.11.18 16:47:08 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.AdminConsolePlugin - 管理平台开始监听:
+  http://gnet-openfire:9703
+  https://gnet-openfire:9705
+2017.11.18 16:47:08 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'admin'.
+2017.11.18 16:47:08 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'sendmsg'.
+2017.11.18 16:47:08 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginMonitor - Finished processing all plugins.
+2017.11.18 16:47:08 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2017.11.18 16:47:08 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Started.
+2017.11.18 16:47:08 WARN  [pool-3-thread-1]: org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.11.18 16:47:08 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+2017.11.18 16:47:08 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+2017.11.18 16:47:08 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+2017.11.18 16:47:08 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+2017.11.18 16:47:08 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+2017.11.18 16:47:08 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2017.11.18 16:47:08 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
+2017.11.18 16:47:08 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+2017.11.18 16:47:08 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2017.11.18 16:47:11 ERROR [Jetty-QTP-AdminConsole-29]: org.jivesoftware.openfire.OfflineMessageStore - 内部服务器错误
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:97)
+	at org.jivesoftware.util.PropertiesImpl.load(PropertiesImpl.java:46)
+	at org.jivesoftware.util.PropertyUtil.getProperty(PropertyUtil.java:33)
+	at org.jivesoftware.openfire.OfflineMessageStore.addMessage(OfflineMessageStore.java:191)
+	at org.jivesoftware.openfire.OfflineMessageStrategy.store(OfflineMessageStrategy.java:196)
+	at org.jivesoftware.openfire.OfflineMessageStrategy.storeOffline(OfflineMessageStrategy.java:149)
+	at org.jivesoftware.openfire.MessageRouter.routingFailed(MessageRouter.java:277)
+	at org.jivesoftware.openfire.spi.RoutingTableImpl.routePacket(RoutingTableImpl.java:273)
+	at org.jivesoftware.openfire.MessageRouter.route(MessageRouter.java:139)
+	at org.jivesoftware.openfire.spi.PacketRouterImpl.route(PacketRouterImpl.java:83)
+	at org.jivesoftware.openfire.spi.PacketRouterImpl.route(PacketRouterImpl.java:63)
+	at org.jivesoftware.openfire.component.InternalComponentManager.sendPacket(InternalComponentManager.java:288)
+	at org.jivesoftware.openfire.plugin.sendmsg.SendMsgServlet.doGet(SendMsgServlet.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:39)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2017.11.18 16:47:11 ERROR [Jetty-QTP-AdminConsole-29]: org.jivesoftware.openfire.container.PluginServlet - 
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:97)
+	at org.jivesoftware.util.PropertiesImpl.load(PropertiesImpl.java:46)
+	at org.jivesoftware.util.PropertyUtil.getProperty(PropertyUtil.java:33)
+	at org.jivesoftware.openfire.plugin.sendmsg.SendMsgServlet.doGet(SendMsgServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:39)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2017.11.18 16:47:17 INFO  [Shutdown Hook]: org.logicalcobwebs.proxool.openfire - Shutting down 'openfire' pool immediately [Shutdown Hook]
+2017.11.18 16:47:17 INFO  [Thread-1]: org.jivesoftware.openfire.XMPPServer - Shutting down 49 modules ...
+2017.11.18 16:47:17 INFO  [Shutdown Hook]: org.logicalcobwebs.proxool.PrototyperController - Stopping Prototyper thread
+2017.11.18 16:47:17 INFO  [Shutdown Hook]: org.logicalcobwebs.proxool.HouseKeeperController - Stopping HouseKeeper thread
+2017.11.18 16:47:17 INFO  [Thread-1]: org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2017.11.18 16:47:17 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Stopped.
+2017.11.18 16:47:17 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Stopped.
+2017.11.18 16:47:17 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Stopped.
+2017.11.18 16:47:17 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component] - Stopped.
+2017.11.18 16:47:17 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Stopped.
+2017.11.18 16:47:17 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Stopped.
+2017.11.18 16:47:17 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Stopped.
+2017.11.18 16:47:17 INFO  [Thread-1]: org.jivesoftware.openfire.http.HttpSessionManager - Stopping instance
+2017.11.18 16:47:17 INFO  [Thread-1]: org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service stopped
+2017.11.18 16:47:17 INFO  [Thread-1]: org.jivesoftware.openfire.XMPPServer - Shutting down plugins ...
+2017.11.18 16:47:17 INFO  [Thread-1]: org.jivesoftware.openfire.container.PluginManager - Shutting down. Unloading all installed plugins...
+2017.11.18 16:47:17 INFO  [Thread-1]: org.jivesoftware.openfire.container.PluginManager - Unloaded plugin 'admin'.
+2017.11.18 16:47:17 INFO  [Thread-1]: org.jivesoftware.openfire.container.PluginManager - Unloaded plugin 'sendmsg'.
+2017.11.18 16:47:17 INFO  [Thread-1]: org.jivesoftware.openfire.XMPPServer - Openfire stopped
+2017.11.18 16:47:17 INFO  [Thread-1]: org.jivesoftware.openfire.XMPPServer - Server halted
+2017.11.18 16:48:06 INFO  [main]: org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2017.11.18 16:48:07 INFO  [main]: org.logicalcobwebs.proxool.ProxoolFacade - Proxool 0.9.0RC3+ (February 6 2008)
+2017.11.18 16:48:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Servers Cache
+2017.11.18 16:48:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Components Cache
+2017.11.18 16:48:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Users Cache
+2017.11.18 16:48:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing AnonymousUsers Cache
+2017.11.18 16:48:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing User Sessions
+2017.11.18 16:48:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Roster
+2017.11.18 16:48:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Multicast Service
+2017.11.18 16:48:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Message Size
+2017.11.18 16:48:07 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for VCard
+2017.11.18 16:48:08 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Privacy Lists
+2017.11.18 16:48:08 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer Cache
+2017.11.18 16:48:08 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Presence Cache
+2017.11.18 16:48:08 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Last Activity Cache
+2017.11.18 16:48:08 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2017.11.18 16:48:08 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2017.11.18 16:48:08 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Components Sessions
+2017.11.18 16:48:08 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Connection Managers Sessions
+2017.11.18 16:48:08 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Incoming Server Sessions
+2017.11.18 16:48:08 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Sessions by Hostname
+2017.11.18 16:48:08 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Validated Domains
+2017.11.18 16:48:08 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Client Session Info Cache
+2017.11.18 16:48:08 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities
+2017.11.18 16:48:08 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities Users
+2017.11.18 16:48:08 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Directed Presences
+2017.11.18 16:48:08 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for PEPServiceManager
+2017.11.18 16:48:08 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer
+2017.11.18 16:48:08 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Published Items
+2017.11.18 16:48:08 INFO  [main]: org.logicalcobwebs.proxool.openfire - Proxool statistics legend: "s - r  (a/t/o)" > s=served, r=refused (only shown if non-zero), a=active, t=total, o=offline (being tested)
+2017.11.18 16:48:08 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Features
+2017.11.18 16:48:08 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Items
+2017.11.18 16:48:08 INFO  [main]: org.jivesoftware.openfire.pubsub.PubSubModule - 发布-订阅域：pubsub.gnet-openfire
+2017.11.18 16:48:08 INFO  [main]: org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - 多用户聊天域：conference.gnet-openfire
+2017.11.18 16:48:08 INFO  [main]: org.jivesoftware.openfire.XMPPServer - Openfire 4.1.6 [2017-11-18 16:48:08]
+2017.11.18 16:48:09 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2017.11.18 16:48:09 INFO  [pool-3-thread-1]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2017.11.18 16:48:09 INFO  [pool-3-thread-1]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2017.11.18 16:48:09 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.AdminConsolePlugin - 管理平台开始监听:
+  http://gnet-openfire:9703
+  https://gnet-openfire:9705
+2017.11.18 16:48:09 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'admin'.
+2017.11.18 16:48:09 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'sendmsg'.
+2017.11.18 16:48:09 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginMonitor - Finished processing all plugins.
+2017.11.18 16:48:09 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2017.11.18 16:48:09 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Started.
+2017.11.18 16:48:09 WARN  [pool-3-thread-1]: org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.11.18 16:48:09 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+2017.11.18 16:48:09 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+2017.11.18 16:48:09 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+2017.11.18 16:48:09 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+2017.11.18 16:48:09 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+2017.11.18 16:48:10 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2017.11.18 16:48:10 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
+2017.11.18 16:48:10 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+2017.11.18 16:48:10 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2017.11.18 16:48:12 ERROR [Jetty-QTP-AdminConsole-29]: org.jivesoftware.openfire.OfflineMessageStore - 内部服务器错误
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:97)
+	at org.jivesoftware.util.PropertiesImpl.load(PropertiesImpl.java:46)
+	at org.jivesoftware.util.PropertyUtil.getProperty(PropertyUtil.java:34)
+	at org.jivesoftware.openfire.OfflineMessageStore.addMessage(OfflineMessageStore.java:191)
+	at org.jivesoftware.openfire.OfflineMessageStrategy.store(OfflineMessageStrategy.java:196)
+	at org.jivesoftware.openfire.OfflineMessageStrategy.storeOffline(OfflineMessageStrategy.java:149)
+	at org.jivesoftware.openfire.MessageRouter.routingFailed(MessageRouter.java:277)
+	at org.jivesoftware.openfire.spi.RoutingTableImpl.routePacket(RoutingTableImpl.java:273)
+	at org.jivesoftware.openfire.MessageRouter.route(MessageRouter.java:139)
+	at org.jivesoftware.openfire.spi.PacketRouterImpl.route(PacketRouterImpl.java:83)
+	at org.jivesoftware.openfire.spi.PacketRouterImpl.route(PacketRouterImpl.java:63)
+	at org.jivesoftware.openfire.component.InternalComponentManager.sendPacket(InternalComponentManager.java:288)
+	at org.jivesoftware.openfire.plugin.sendmsg.SendMsgServlet.doGet(SendMsgServlet.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:39)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2017.11.18 16:48:12 ERROR [Jetty-QTP-AdminConsole-29]: org.jivesoftware.openfire.container.PluginServlet - 
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:97)
+	at org.jivesoftware.util.PropertiesImpl.load(PropertiesImpl.java:46)
+	at org.jivesoftware.util.PropertyUtil.getProperty(PropertyUtil.java:34)
+	at org.jivesoftware.openfire.plugin.sendmsg.SendMsgServlet.doGet(SendMsgServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:39)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2017.11.18 17:08:30 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginClassLoader - Unloading plugin JAR file /Users/Jikey/Downloads/workspace/openfire_src/target/openfire/plugins/sendmsg/lib/plugin-sendmsg-jspc.jar
+2017.11.18 17:08:30 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginClassLoader - Unloading plugin JAR file /Users/Jikey/Downloads/workspace/openfire_src/target/openfire/plugins/sendmsg/lib/plugin-sendmsg.jar
+2017.11.18 17:08:30 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginClassLoader - Unloading plugin JAR file /Users/Jikey/Downloads/workspace/openfire_src/target/openfire/plugins/sendmsg/lib/sendmsg-lib.jar
+2017.11.18 17:08:32 ERROR [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginMonitor - An unexpected exception occurred:
+java.lang.NullPointerException
+	at java.util.zip.ZipFile.getZipEntry(ZipFile.java:566)
+	at java.util.zip.ZipFile.access$900(ZipFile.java:60)
+	at java.util.zip.ZipFile$ZipEntryIterator.next(ZipFile.java:524)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:499)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:480)
+	at java.util.jar.JarFile$JarEntryIterator.next(JarFile.java:257)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:266)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:247)
+	at sun.misc.URLClassPath$JarLoader.validIndex(URLClassPath.java:968)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1101)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1013)
+	at sun.misc.URLClassPath.getResource(URLClassPath.java:212)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jivesoftware.openfire.container.PluginManager.unloadPlugin(PluginManager.java:736)
+	at org.jivesoftware.openfire.container.PluginMonitor$MonitorTask.run(PluginMonitor.java:177)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017.11.18 17:08:52 INFO  [pool-83-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'sendmsg'.
+2017.11.18 17:08:52 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginMonitor - Finished processing all plugins.
+2017.11.18 17:09:18 ERROR [Jetty-QTP-AdminConsole-30]: org.jivesoftware.openfire.OfflineMessageStore - 内部服务器错误
+java.lang.NullPointerException
+	at java.util.zip.ZipFile.getZipEntry(ZipFile.java:566)
+	at java.util.zip.ZipFile.access$900(ZipFile.java:60)
+	at java.util.zip.ZipFile$ZipEntryIterator.next(ZipFile.java:524)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:499)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:480)
+	at java.util.jar.JarFile$JarEntryIterator.next(JarFile.java:257)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:266)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:247)
+	at sun.misc.URLClassPath$JarLoader.validIndex(URLClassPath.java:968)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1101)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1013)
+	at sun.misc.URLClassPath.getResource(URLClassPath.java:212)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jivesoftware.util.PropertiesImpl$PropertiesContext.putOrUpdate(PropertiesImpl.java:349)
+	at org.jivesoftware.util.PropertiesImpl.put(PropertiesImpl.java:323)
+	at org.jivesoftware.util.PropertiesImpl.load(PropertiesImpl.java:126)
+	at org.jivesoftware.util.PropertyUtil.getProperty(PropertyUtil.java:34)
+	at org.jivesoftware.openfire.OfflineMessageStore.addMessage(OfflineMessageStore.java:191)
+	at org.jivesoftware.openfire.OfflineMessageStrategy.store(OfflineMessageStrategy.java:196)
+	at org.jivesoftware.openfire.OfflineMessageStrategy.storeOffline(OfflineMessageStrategy.java:149)
+	at org.jivesoftware.openfire.MessageRouter.routingFailed(MessageRouter.java:277)
+	at org.jivesoftware.openfire.spi.RoutingTableImpl.routePacket(RoutingTableImpl.java:273)
+	at org.jivesoftware.openfire.MessageRouter.route(MessageRouter.java:139)
+	at org.jivesoftware.openfire.spi.PacketRouterImpl.route(PacketRouterImpl.java:83)
+	at org.jivesoftware.openfire.spi.PacketRouterImpl.route(PacketRouterImpl.java:63)
+	at org.jivesoftware.openfire.component.InternalComponentManager.sendPacket(InternalComponentManager.java:288)
+	at org.jivesoftware.openfire.plugin.sendmsg.SendMsgServlet.doGet(SendMsgServlet.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:39)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2017.11.18 17:09:18 ERROR [Jetty-QTP-AdminConsole-30]: org.jivesoftware.openfire.container.PluginServlet - 
+java.lang.NullPointerException
+	at java.util.zip.ZipFile.getZipEntry(ZipFile.java:566)
+	at java.util.zip.ZipFile.access$900(ZipFile.java:60)
+	at java.util.zip.ZipFile$ZipEntryIterator.next(ZipFile.java:524)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:499)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:480)
+	at java.util.jar.JarFile$JarEntryIterator.next(JarFile.java:257)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:266)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:247)
+	at sun.misc.URLClassPath$JarLoader.validIndex(URLClassPath.java:968)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1101)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1013)
+	at sun.misc.URLClassPath.getResource(URLClassPath.java:212)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jivesoftware.util.PropertiesImpl$PropertiesContext.putOrUpdate(PropertiesImpl.java:349)
+	at org.jivesoftware.util.PropertiesImpl.put(PropertiesImpl.java:323)
+	at org.jivesoftware.util.PropertiesImpl.load(PropertiesImpl.java:126)
+	at org.jivesoftware.util.PropertyUtil.getProperty(PropertyUtil.java:34)
+	at org.jivesoftware.openfire.plugin.sendmsg.SendMsgServlet.doGet(SendMsgServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.jivesoftware.openfire.container.PluginServlet.handleServlet(PluginServlet.java:410)
+	at org.jivesoftware.openfire.container.PluginServlet.service(PluginServlet.java:107)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.jivesoftware.admin.PluginFilter.doFilter(PluginFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.jivesoftware.admin.AuthCheckFilter.doFilter(AuthCheckFilter.java:165)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.opensymphony.module.sitemesh.filter.PageFilter.doFilter(PageFilter.java:39)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2017.11.18 17:09:26 INFO  [Shutdown Hook]: org.logicalcobwebs.proxool.openfire - Shutting down 'openfire' pool immediately [Shutdown Hook]
+2017.11.18 17:09:26 INFO  [Thread-1]: org.jivesoftware.openfire.XMPPServer - Shutting down 49 modules ...
+2017.11.18 17:09:26 ERROR [Thread-1]: org.jivesoftware.openfire.XMPPServer - Exception during module shutdown
+java.lang.NullPointerException
+	at java.util.zip.ZipFile.getZipEntry(ZipFile.java:566)
+	at java.util.zip.ZipFile.access$900(ZipFile.java:60)
+	at java.util.zip.ZipFile$ZipEntryIterator.next(ZipFile.java:524)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:499)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:480)
+	at java.util.jar.JarFile$JarEntryIterator.next(JarFile.java:257)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:266)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:247)
+	at sun.misc.URLClassPath$JarLoader.validIndex(URLClassPath.java:968)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1101)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1013)
+	at sun.misc.URLClassPath.getResource(URLClassPath.java:212)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jivesoftware.openfire.SessionManager.stop(SessionManager.java:1457)
+	at org.jivesoftware.openfire.XMPPServer.shutdownServer(XMPPServer.java:893)
+	at org.jivesoftware.openfire.XMPPServer.access$800(XMPPServer.java:99)
+	at org.jivesoftware.openfire.XMPPServer$ShutdownHookThread.run(XMPPServer.java:839)
+2017.11.18 17:09:26 INFO  [Shutdown Hook]: org.logicalcobwebs.proxool.PrototyperController - Stopping Prototyper thread
+2017.11.18 17:09:26 INFO  [Shutdown Hook]: org.logicalcobwebs.proxool.HouseKeeperController - Stopping HouseKeeper thread
+2017.11.18 17:09:26 ERROR [Thread-1]: org.jivesoftware.openfire.XMPPServer - Exception during module shutdown
+java.lang.NullPointerException
+	at java.util.zip.ZipFile.getZipEntry(ZipFile.java:566)
+	at java.util.zip.ZipFile.access$900(ZipFile.java:60)
+	at java.util.zip.ZipFile$ZipEntryIterator.next(ZipFile.java:524)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:499)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:480)
+	at java.util.jar.JarFile$JarEntryIterator.next(JarFile.java:257)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:266)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:247)
+	at sun.misc.URLClassPath$JarLoader.validIndex(URLClassPath.java:968)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1101)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1013)
+	at sun.misc.URLClassPath.getResource(URLClassPath.java:212)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jivesoftware.util.cache.DefaultCache.values(DefaultCache.java:272)
+	at org.jivesoftware.util.cache.CacheWrapper.values(CacheWrapper.java:120)
+	at org.jivesoftware.openfire.pep.PEPServiceManager.stop(PEPServiceManager.java:207)
+	at org.jivesoftware.openfire.pep.IQPEPHandler.stop(IQPEPHandler.java:202)
+	at org.jivesoftware.openfire.XMPPServer.shutdownServer(XMPPServer.java:893)
+	at org.jivesoftware.openfire.XMPPServer.access$800(XMPPServer.java:99)
+	at org.jivesoftware.openfire.XMPPServer$ShutdownHookThread.run(XMPPServer.java:839)
+2017.11.18 17:09:26 INFO  [Thread-1]: org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2017.11.18 17:09:26 ERROR [Thread-1]: org.jivesoftware.openfire.XMPPServer - Exception during module shutdown
+java.lang.NullPointerException
+	at java.util.zip.ZipFile.getZipEntry(ZipFile.java:566)
+	at java.util.zip.ZipFile.access$900(ZipFile.java:60)
+	at java.util.zip.ZipFile$ZipEntryIterator.next(ZipFile.java:524)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:499)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:480)
+	at java.util.jar.JarFile$JarEntryIterator.next(JarFile.java:257)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:266)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:247)
+	at sun.misc.URLClassPath$JarLoader.validIndex(URLClassPath.java:968)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1101)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1013)
+	at sun.misc.URLClassPath.getResource(URLClassPath.java:212)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jivesoftware.openfire.component.InternalComponentManager.removeComponent(InternalComponentManager.java:259)
+	at org.jivesoftware.openfire.component.InternalComponentManager.removeComponent(InternalComponentManager.java:217)
+	at org.jivesoftware.openfire.muc.MultiUserChatManager.unregisterMultiUserChatService(MultiUserChatManager.java:182)
+	at org.jivesoftware.openfire.muc.MultiUserChatManager.stop(MultiUserChatManager.java:144)
+	at org.jivesoftware.openfire.XMPPServer.shutdownServer(XMPPServer.java:893)
+	at org.jivesoftware.openfire.XMPPServer.access$800(XMPPServer.java:99)
+	at org.jivesoftware.openfire.XMPPServer$ShutdownHookThread.run(XMPPServer.java:839)
+2017.11.18 17:09:26 ERROR [Thread-1]: org.jivesoftware.openfire.spi.ConnectionManagerImpl - An exception occurred while stopping listener ConnectionListener{name=socket_c2s}
+java.lang.NullPointerException
+	at java.util.zip.ZipFile.getZipEntry(ZipFile.java:566)
+	at java.util.zip.ZipFile.access$900(ZipFile.java:60)
+	at java.util.zip.ZipFile$ZipEntryIterator.next(ZipFile.java:524)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:499)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:480)
+	at java.util.jar.JarFile$JarEntryIterator.next(JarFile.java:257)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:266)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:247)
+	at sun.misc.URLClassPath$JarLoader.validIndex(URLClassPath.java:968)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1101)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1013)
+	at sun.misc.URLClassPath.getResource(URLClassPath.java:212)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.mina.core.service.IoServiceListenerSupport.disconnectSessions(IoServiceListenerSupport.java:287)
+	at org.apache.mina.core.service.IoServiceListenerSupport.fireServiceDeactivated(IoServiceListenerSupport.java:181)
+	at org.apache.mina.core.service.AbstractIoAcceptor.unbind(AbstractIoAcceptor.java:406)
+	at org.apache.mina.core.service.AbstractIoAcceptor.unbind(AbstractIoAcceptor.java:324)
+	at org.jivesoftware.openfire.spi.MINAConnectionAcceptor.stop(MINAConnectionAcceptor.java:161)
+	at org.jivesoftware.openfire.spi.ConnectionListener.stop(ConnectionListener.java:289)
+	at org.jivesoftware.openfire.spi.ConnectionManagerImpl.stopListeners(ConnectionManagerImpl.java:334)
+	at org.jivesoftware.openfire.spi.ConnectionManagerImpl.stop(ConnectionManagerImpl.java:691)
+	at org.jivesoftware.openfire.XMPPServer.shutdownServer(XMPPServer.java:893)
+	at org.jivesoftware.openfire.XMPPServer.access$800(XMPPServer.java:99)
+	at org.jivesoftware.openfire.XMPPServer$ShutdownHookThread.run(XMPPServer.java:839)
+2017.11.18 17:09:26 ERROR [Thread-1]: org.jivesoftware.openfire.spi.ConnectionManagerImpl - An exception occurred while stopping listener ConnectionListener{name=socket_c2s-legacyMode}
+java.lang.NullPointerException
+	at java.util.zip.ZipFile.getZipEntry(ZipFile.java:566)
+	at java.util.zip.ZipFile.access$900(ZipFile.java:60)
+	at java.util.zip.ZipFile$ZipEntryIterator.next(ZipFile.java:524)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:499)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:480)
+	at java.util.jar.JarFile$JarEntryIterator.next(JarFile.java:257)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:266)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:247)
+	at sun.misc.URLClassPath$JarLoader.validIndex(URLClassPath.java:968)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1101)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1013)
+	at sun.misc.URLClassPath.getResource(URLClassPath.java:212)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.mina.core.service.IoServiceListenerSupport.disconnectSessions(IoServiceListenerSupport.java:287)
+	at org.apache.mina.core.service.IoServiceListenerSupport.fireServiceDeactivated(IoServiceListenerSupport.java:181)
+	at org.apache.mina.core.service.AbstractIoAcceptor.unbind(AbstractIoAcceptor.java:406)
+	at org.apache.mina.core.service.AbstractIoAcceptor.unbind(AbstractIoAcceptor.java:324)
+	at org.jivesoftware.openfire.spi.MINAConnectionAcceptor.stop(MINAConnectionAcceptor.java:161)
+	at org.jivesoftware.openfire.spi.ConnectionListener.stop(ConnectionListener.java:289)
+	at org.jivesoftware.openfire.spi.ConnectionManagerImpl.stopListeners(ConnectionManagerImpl.java:334)
+	at org.jivesoftware.openfire.spi.ConnectionManagerImpl.stop(ConnectionManagerImpl.java:691)
+	at org.jivesoftware.openfire.XMPPServer.shutdownServer(XMPPServer.java:893)
+	at org.jivesoftware.openfire.XMPPServer.access$800(XMPPServer.java:99)
+	at org.jivesoftware.openfire.XMPPServer$ShutdownHookThread.run(XMPPServer.java:839)
+2017.11.18 17:09:26 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Stopped.
+2017.11.18 17:09:26 ERROR [Thread-1]: org.jivesoftware.openfire.spi.ConnectionManagerImpl - An exception occurred while stopping listener ConnectionListener{name=component}
+java.lang.NullPointerException
+	at java.util.zip.ZipFile.getZipEntry(ZipFile.java:566)
+	at java.util.zip.ZipFile.access$900(ZipFile.java:60)
+	at java.util.zip.ZipFile$ZipEntryIterator.next(ZipFile.java:524)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:499)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:480)
+	at java.util.jar.JarFile$JarEntryIterator.next(JarFile.java:257)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:266)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:247)
+	at sun.misc.URLClassPath$JarLoader.validIndex(URLClassPath.java:968)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1101)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1013)
+	at sun.misc.URLClassPath.getResource(URLClassPath.java:212)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.mina.core.service.IoServiceListenerSupport.disconnectSessions(IoServiceListenerSupport.java:287)
+	at org.apache.mina.core.service.IoServiceListenerSupport.fireServiceDeactivated(IoServiceListenerSupport.java:181)
+	at org.apache.mina.core.service.AbstractIoAcceptor.unbind(AbstractIoAcceptor.java:406)
+	at org.apache.mina.core.service.AbstractIoAcceptor.unbind(AbstractIoAcceptor.java:324)
+	at org.jivesoftware.openfire.spi.MINAConnectionAcceptor.stop(MINAConnectionAcceptor.java:161)
+	at org.jivesoftware.openfire.spi.ConnectionListener.stop(ConnectionListener.java:289)
+	at org.jivesoftware.openfire.spi.ConnectionManagerImpl.stopListeners(ConnectionManagerImpl.java:334)
+	at org.jivesoftware.openfire.spi.ConnectionManagerImpl.stop(ConnectionManagerImpl.java:691)
+	at org.jivesoftware.openfire.XMPPServer.shutdownServer(XMPPServer.java:893)
+	at org.jivesoftware.openfire.XMPPServer.access$800(XMPPServer.java:99)
+	at org.jivesoftware.openfire.XMPPServer$ShutdownHookThread.run(XMPPServer.java:839)
+2017.11.18 17:09:26 ERROR [Thread-1]: org.jivesoftware.openfire.spi.ConnectionManagerImpl - An exception occurred while stopping listener ConnectionListener{name=component-legacyMode}
+java.lang.NullPointerException
+	at java.util.zip.ZipFile.getZipEntry(ZipFile.java:566)
+	at java.util.zip.ZipFile.access$900(ZipFile.java:60)
+	at java.util.zip.ZipFile$ZipEntryIterator.next(ZipFile.java:524)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:499)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:480)
+	at java.util.jar.JarFile$JarEntryIterator.next(JarFile.java:257)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:266)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:247)
+	at sun.misc.URLClassPath$JarLoader.validIndex(URLClassPath.java:968)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1101)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1013)
+	at sun.misc.URLClassPath.getResource(URLClassPath.java:212)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.mina.core.service.IoServiceListenerSupport.disconnectSessions(IoServiceListenerSupport.java:287)
+	at org.apache.mina.core.service.IoServiceListenerSupport.fireServiceDeactivated(IoServiceListenerSupport.java:181)
+	at org.apache.mina.core.service.AbstractIoAcceptor.unbind(AbstractIoAcceptor.java:406)
+	at org.apache.mina.core.service.AbstractIoAcceptor.unbind(AbstractIoAcceptor.java:324)
+	at org.jivesoftware.openfire.spi.MINAConnectionAcceptor.stop(MINAConnectionAcceptor.java:161)
+	at org.jivesoftware.openfire.spi.ConnectionListener.stop(ConnectionListener.java:289)
+	at org.jivesoftware.openfire.spi.ConnectionManagerImpl.stopListeners(ConnectionManagerImpl.java:334)
+	at org.jivesoftware.openfire.spi.ConnectionManagerImpl.stop(ConnectionManagerImpl.java:691)
+	at org.jivesoftware.openfire.XMPPServer.shutdownServer(XMPPServer.java:893)
+	at org.jivesoftware.openfire.XMPPServer.access$800(XMPPServer.java:99)
+	at org.jivesoftware.openfire.XMPPServer$ShutdownHookThread.run(XMPPServer.java:839)
+2017.11.18 17:09:26 ERROR [Thread-1]: org.jivesoftware.openfire.spi.ConnectionManagerImpl - An exception occurred while stopping listener ConnectionListener{name=connection_manager}
+java.lang.NullPointerException
+	at java.util.zip.ZipFile.getZipEntry(ZipFile.java:566)
+	at java.util.zip.ZipFile.access$900(ZipFile.java:60)
+	at java.util.zip.ZipFile$ZipEntryIterator.next(ZipFile.java:524)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:499)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:480)
+	at java.util.jar.JarFile$JarEntryIterator.next(JarFile.java:257)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:266)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:247)
+	at sun.misc.URLClassPath$JarLoader.validIndex(URLClassPath.java:968)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1101)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1013)
+	at sun.misc.URLClassPath.getResource(URLClassPath.java:212)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.mina.core.service.IoServiceListenerSupport.disconnectSessions(IoServiceListenerSupport.java:287)
+	at org.apache.mina.core.service.IoServiceListenerSupport.fireServiceDeactivated(IoServiceListenerSupport.java:181)
+	at org.apache.mina.core.service.AbstractIoAcceptor.unbind(AbstractIoAcceptor.java:406)
+	at org.apache.mina.core.service.AbstractIoAcceptor.unbind(AbstractIoAcceptor.java:324)
+	at org.jivesoftware.openfire.spi.MINAConnectionAcceptor.stop(MINAConnectionAcceptor.java:161)
+	at org.jivesoftware.openfire.spi.ConnectionListener.stop(ConnectionListener.java:289)
+	at org.jivesoftware.openfire.spi.ConnectionManagerImpl.stopListeners(ConnectionManagerImpl.java:334)
+	at org.jivesoftware.openfire.spi.ConnectionManagerImpl.stop(ConnectionManagerImpl.java:691)
+	at org.jivesoftware.openfire.XMPPServer.shutdownServer(XMPPServer.java:893)
+	at org.jivesoftware.openfire.XMPPServer.access$800(XMPPServer.java:99)
+	at org.jivesoftware.openfire.XMPPServer$ShutdownHookThread.run(XMPPServer.java:839)
+2017.11.18 17:09:26 ERROR [Thread-1]: org.jivesoftware.openfire.spi.ConnectionManagerImpl - An exception occurred while stopping listener ConnectionListener{name=connection_manager-legacyMode}
+java.lang.NullPointerException
+	at java.util.zip.ZipFile.getZipEntry(ZipFile.java:566)
+	at java.util.zip.ZipFile.access$900(ZipFile.java:60)
+	at java.util.zip.ZipFile$ZipEntryIterator.next(ZipFile.java:524)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:499)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:480)
+	at java.util.jar.JarFile$JarEntryIterator.next(JarFile.java:257)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:266)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:247)
+	at sun.misc.URLClassPath$JarLoader.validIndex(URLClassPath.java:968)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1101)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1013)
+	at sun.misc.URLClassPath.getResource(URLClassPath.java:212)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.mina.core.service.IoServiceListenerSupport.disconnectSessions(IoServiceListenerSupport.java:287)
+	at org.apache.mina.core.service.IoServiceListenerSupport.fireServiceDeactivated(IoServiceListenerSupport.java:181)
+	at org.apache.mina.core.service.AbstractIoAcceptor.unbind(AbstractIoAcceptor.java:406)
+	at org.apache.mina.core.service.AbstractIoAcceptor.unbind(AbstractIoAcceptor.java:324)
+	at org.jivesoftware.openfire.spi.MINAConnectionAcceptor.stop(MINAConnectionAcceptor.java:161)
+	at org.jivesoftware.openfire.spi.ConnectionListener.stop(ConnectionListener.java:289)
+	at org.jivesoftware.openfire.spi.ConnectionManagerImpl.stopListeners(ConnectionManagerImpl.java:334)
+	at org.jivesoftware.openfire.spi.ConnectionManagerImpl.stop(ConnectionManagerImpl.java:691)
+	at org.jivesoftware.openfire.XMPPServer.shutdownServer(XMPPServer.java:893)
+	at org.jivesoftware.openfire.XMPPServer.access$800(XMPPServer.java:99)
+	at org.jivesoftware.openfire.XMPPServer$ShutdownHookThread.run(XMPPServer.java:839)
+2017.11.18 17:09:26 WARN  [Thread-1]: org.eclipse.jetty.util.component.AbstractLifeCycle - FAILED o.e.j.w.WebAppContext@339da694{/,file:/Users/Jikey/Downloads/workspace/openfire_src/target/openfire/resources/spank/,UNAVAILABLE}{/Users/Jikey/Downloads/workspace/openfire_src/target/openfire/resources/spank}: java.lang.NullPointerException
+java.lang.NullPointerException
+	at java.util.zip.ZipFile.getZipEntry(ZipFile.java:566)
+	at java.util.zip.ZipFile.access$900(ZipFile.java:60)
+	at java.util.zip.ZipFile$ZipEntryIterator.next(ZipFile.java:524)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:499)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:480)
+	at java.util.jar.JarFile$JarEntryIterator.next(JarFile.java:257)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:266)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:247)
+	at sun.misc.URLClassPath$JarLoader.validIndex(URLClassPath.java:968)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1101)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1013)
+	at sun.misc.URLClassPath.getResource(URLClassPath.java:212)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:427)
+	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:403)
+	at org.eclipse.jetty.util.Loader.loadClass(Loader.java:86)
+	at org.eclipse.jetty.servlet.listener.ELContextCleaner.contextDestroyed(ELContextCleaner.java:55)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextDestroyed(ContextHandler.java:808)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextDestroyed(ServletContextHandler.java:457)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:842)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:215)
+	at org.eclipse.jetty.webapp.WebAppContext.doStop(WebAppContext.java:529)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:89)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:143)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:162)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:73)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:89)
+	at org.jivesoftware.openfire.http.HttpBindManager.stop(HttpBindManager.java:242)
+	at org.jivesoftware.openfire.spi.ConnectionManagerImpl.stopListeners(ConnectionManagerImpl.java:345)
+	at org.jivesoftware.openfire.spi.ConnectionManagerImpl.stop(ConnectionManagerImpl.java:691)
+	at org.jivesoftware.openfire.XMPPServer.shutdownServer(XMPPServer.java:893)
+	at org.jivesoftware.openfire.XMPPServer.access$800(XMPPServer.java:99)
+	at org.jivesoftware.openfire.XMPPServer$ShutdownHookThread.run(XMPPServer.java:839)
+2017.11.18 17:09:26 WARN  [Thread-1]: org.eclipse.jetty.util.component.AbstractLifeCycle - FAILED org.eclipse.jetty.server.handler.HandlerList@da24b8d[o.e.j.s.ServletContextHandler@3e3a6a84{/http-bind,null,AVAILABLE}, o.e.j.s.ServletContextHandler@604dd2d1{/crossdomain.xml,null,AVAILABLE}, org.eclipse.jetty.server.handler.HandlerCollection@b2c298a[], o.e.j.w.WebAppContext@339da694{/,file:/Users/Jikey/Downloads/workspace/openfire_src/target/openfire/resources/spank/,UNAVAILABLE}{/Users/Jikey/Downloads/workspace/openfire_src/target/openfire/resources/spank}]: java.lang.NullPointerException
+java.lang.NullPointerException
+	at java.util.zip.ZipFile.getZipEntry(ZipFile.java:566)
+	at java.util.zip.ZipFile.access$900(ZipFile.java:60)
+	at java.util.zip.ZipFile$ZipEntryIterator.next(ZipFile.java:524)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:499)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:480)
+	at java.util.jar.JarFile$JarEntryIterator.next(JarFile.java:257)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:266)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:247)
+	at sun.misc.URLClassPath$JarLoader.validIndex(URLClassPath.java:968)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1101)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1013)
+	at sun.misc.URLClassPath.getResource(URLClassPath.java:212)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:427)
+	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:403)
+	at org.eclipse.jetty.util.Loader.loadClass(Loader.java:86)
+	at org.eclipse.jetty.servlet.listener.ELContextCleaner.contextDestroyed(ELContextCleaner.java:55)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextDestroyed(ContextHandler.java:808)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextDestroyed(ServletContextHandler.java:457)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:842)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:215)
+	at org.eclipse.jetty.webapp.WebAppContext.doStop(WebAppContext.java:529)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:89)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:143)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:162)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:73)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:89)
+	at org.jivesoftware.openfire.http.HttpBindManager.stop(HttpBindManager.java:242)
+	at org.jivesoftware.openfire.spi.ConnectionManagerImpl.stopListeners(ConnectionManagerImpl.java:345)
+	at org.jivesoftware.openfire.spi.ConnectionManagerImpl.stop(ConnectionManagerImpl.java:691)
+	at org.jivesoftware.openfire.XMPPServer.shutdownServer(XMPPServer.java:893)
+	at org.jivesoftware.openfire.XMPPServer.access$800(XMPPServer.java:99)
+	at org.jivesoftware.openfire.XMPPServer$ShutdownHookThread.run(XMPPServer.java:839)
+2017.11.18 17:09:26 ERROR [Thread-1]: org.jivesoftware.openfire.http.HttpBindManager - Error stopping HTTP bind service
+java.lang.NullPointerException
+	at java.util.zip.ZipFile.getZipEntry(ZipFile.java:566)
+	at java.util.zip.ZipFile.access$900(ZipFile.java:60)
+	at java.util.zip.ZipFile$ZipEntryIterator.next(ZipFile.java:524)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:499)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:480)
+	at java.util.jar.JarFile$JarEntryIterator.next(JarFile.java:257)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:266)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:247)
+	at sun.misc.URLClassPath$JarLoader.validIndex(URLClassPath.java:968)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1101)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1013)
+	at sun.misc.URLClassPath.getResource(URLClassPath.java:212)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:427)
+	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:403)
+	at org.eclipse.jetty.util.Loader.loadClass(Loader.java:86)
+	at org.eclipse.jetty.servlet.listener.ELContextCleaner.contextDestroyed(ELContextCleaner.java:55)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextDestroyed(ContextHandler.java:808)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextDestroyed(ServletContextHandler.java:457)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:842)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:215)
+	at org.eclipse.jetty.webapp.WebAppContext.doStop(WebAppContext.java:529)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:89)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:143)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:162)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:73)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:89)
+	at org.jivesoftware.openfire.http.HttpBindManager.stop(HttpBindManager.java:242)
+	at org.jivesoftware.openfire.spi.ConnectionManagerImpl.stopListeners(ConnectionManagerImpl.java:345)
+	at org.jivesoftware.openfire.spi.ConnectionManagerImpl.stop(ConnectionManagerImpl.java:691)
+	at org.jivesoftware.openfire.XMPPServer.shutdownServer(XMPPServer.java:893)
+	at org.jivesoftware.openfire.XMPPServer.access$800(XMPPServer.java:99)
+	at org.jivesoftware.openfire.XMPPServer$ShutdownHookThread.run(XMPPServer.java:839)
+2017.11.18 17:09:26 INFO  [Thread-1]: org.jivesoftware.openfire.XMPPServer - Shutting down plugins ...
+2017.11.18 17:09:26 INFO  [Thread-1]: org.jivesoftware.openfire.container.PluginManager - Shutting down. Unloading all installed plugins...
+2017.11.18 17:09:26 WARN  [Thread-1]: org.eclipse.jetty.util.component.AbstractLifeCycle - FAILED org.eclipse.jetty.server.Server@14cdf541: java.lang.NullPointerException
+java.lang.NullPointerException
+	at java.util.zip.ZipFile.getZipEntry(ZipFile.java:566)
+	at java.util.zip.ZipFile.access$900(ZipFile.java:60)
+	at java.util.zip.ZipFile$ZipEntryIterator.next(ZipFile.java:524)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:499)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:480)
+	at java.util.jar.JarFile$JarEntryIterator.next(JarFile.java:257)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:266)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:247)
+	at sun.misc.URLClassPath$JarLoader.validIndex(URLClassPath.java:968)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1101)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1013)
+	at sun.misc.URLClassPath.getResource(URLClassPath.java:212)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.jetty.server.AbstractConnector.shutdown(AbstractConnector.java:285)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.shutdown(AbstractNetworkConnector.java:108)
+	at org.eclipse.jetty.server.ServerConnector.shutdown(ServerConnector.java:341)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:404)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:89)
+	at org.jivesoftware.openfire.container.AdminConsolePlugin.shutdown(AdminConsolePlugin.java:231)
+	at org.jivesoftware.openfire.container.AdminConsolePlugin.destroyPlugin(AdminConsolePlugin.java:251)
+	at org.jivesoftware.openfire.container.PluginManager.shutdown(PluginManager.java:112)
+	at org.jivesoftware.openfire.XMPPServer.shutdownServer(XMPPServer.java:903)
+	at org.jivesoftware.openfire.XMPPServer.access$800(XMPPServer.java:99)
+	at org.jivesoftware.openfire.XMPPServer$ShutdownHookThread.run(XMPPServer.java:839)
+2017.11.18 17:09:26 ERROR [Thread-1]: org.jivesoftware.openfire.container.AdminConsolePlugin - Error stopping admin console server
+java.lang.NullPointerException
+	at java.util.zip.ZipFile.getZipEntry(ZipFile.java:566)
+	at java.util.zip.ZipFile.access$900(ZipFile.java:60)
+	at java.util.zip.ZipFile$ZipEntryIterator.next(ZipFile.java:524)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:499)
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:480)
+	at java.util.jar.JarFile$JarEntryIterator.next(JarFile.java:257)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:266)
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:247)
+	at sun.misc.URLClassPath$JarLoader.validIndex(URLClassPath.java:968)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1101)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1013)
+	at sun.misc.URLClassPath.getResource(URLClassPath.java:212)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.jetty.server.AbstractConnector.shutdown(AbstractConnector.java:285)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.shutdown(AbstractNetworkConnector.java:108)
+	at org.eclipse.jetty.server.ServerConnector.shutdown(ServerConnector.java:341)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:404)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:89)
+	at org.jivesoftware.openfire.container.AdminConsolePlugin.shutdown(AdminConsolePlugin.java:231)
+	at org.jivesoftware.openfire.container.AdminConsolePlugin.destroyPlugin(AdminConsolePlugin.java:251)
+	at org.jivesoftware.openfire.container.PluginManager.shutdown(PluginManager.java:112)
+	at org.jivesoftware.openfire.XMPPServer.shutdownServer(XMPPServer.java:903)
+	at org.jivesoftware.openfire.XMPPServer.access$800(XMPPServer.java:99)
+	at org.jivesoftware.openfire.XMPPServer$ShutdownHookThread.run(XMPPServer.java:839)
+2017.11.18 17:09:26 INFO  [Thread-1]: org.jivesoftware.openfire.container.PluginManager - Unloaded plugin 'admin'.
+2017.11.18 17:09:26 INFO  [Thread-1]: org.jivesoftware.openfire.container.PluginManager - Unloaded plugin 'sendmsg'.
+2017.11.18 17:09:26 INFO  [Thread-1]: org.jivesoftware.openfire.XMPPServer - Openfire stopped
+2017.11.18 17:09:26 INFO  [Thread-1]: org.jivesoftware.openfire.XMPPServer - Server halted
+2017.11.18 17:09:48 INFO  [main]: org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2017.11.18 17:09:48 INFO  [main]: org.logicalcobwebs.proxool.ProxoolFacade - Proxool 0.9.0RC3+ (February 6 2008)
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Servers Cache
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Components Cache
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Users Cache
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing AnonymousUsers Cache
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing User Sessions
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Roster
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Multicast Service
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Message Size
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for VCard
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Privacy Lists
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer Cache
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Presence Cache
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Last Activity Cache
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Components Sessions
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Connection Managers Sessions
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Incoming Server Sessions
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Sessions by Hostname
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Validated Domains
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Client Session Info Cache
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities Users
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Directed Presences
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for PEPServiceManager
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Published Items
+2017.11.18 17:09:49 INFO  [main]: org.logicalcobwebs.proxool.openfire - Proxool statistics legend: "s - r  (a/t/o)" > s=served, r=refused (only shown if non-zero), a=active, t=total, o=offline (being tested)
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Features
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Items
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.openfire.pubsub.PubSubModule - 发布-订阅域：pubsub.gnet-openfire
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - 多用户聊天域：conference.gnet-openfire
+2017.11.18 17:09:49 INFO  [main]: org.jivesoftware.openfire.XMPPServer - Openfire 4.1.6 [2017-11-18 17:09:49]
+2017.11.18 17:09:50 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2017.11.18 17:09:50 INFO  [pool-3-thread-1]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2017.11.18 17:09:50 INFO  [pool-3-thread-1]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2017.11.18 17:09:50 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.AdminConsolePlugin - 管理平台开始监听:
+  http://gnet-openfire:9703
+  https://gnet-openfire:9705
+2017.11.18 17:09:50 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'admin'.
+2017.11.18 17:09:50 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'sendmsg'.
+2017.11.18 17:09:50 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginMonitor - Finished processing all plugins.
+2017.11.18 17:09:51 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2017.11.18 17:09:51 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Started.
+2017.11.18 17:09:51 WARN  [pool-3-thread-1]: org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.11.18 17:09:51 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+2017.11.18 17:09:51 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+2017.11.18 17:09:51 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+2017.11.18 17:09:51 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+2017.11.18 17:09:51 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+2017.11.18 17:09:51 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2017.11.18 17:09:51 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
+2017.11.18 17:09:51 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+2017.11.18 17:09:51 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2017.11.18 17:15:48 INFO  [Shutdown Hook]: org.logicalcobwebs.proxool.openfire - Shutting down 'openfire' pool immediately [Shutdown Hook]
+2017.11.18 17:15:48 INFO  [Thread-1]: org.jivesoftware.openfire.XMPPServer - Shutting down 49 modules ...
+2017.11.18 17:15:48 INFO  [Shutdown Hook]: org.logicalcobwebs.proxool.PrototyperController - Stopping Prototyper thread
+2017.11.18 17:15:48 INFO  [Shutdown Hook]: org.logicalcobwebs.proxool.HouseKeeperController - Stopping HouseKeeper thread
+2017.11.18 17:15:48 INFO  [Thread-1]: org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2017.11.18 17:15:48 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Stopped.
+2017.11.18 17:15:48 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Stopped.
+2017.11.18 17:15:48 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Stopped.
+2017.11.18 17:15:48 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component] - Stopped.
+2017.11.18 17:15:48 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Stopped.
+2017.11.18 17:15:48 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Stopped.
+2017.11.18 17:15:48 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Stopped.
+2017.11.18 17:15:48 INFO  [Thread-1]: org.jivesoftware.openfire.http.HttpSessionManager - Stopping instance
+2017.11.18 17:15:48 INFO  [Thread-1]: org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service stopped
+2017.11.18 17:15:48 INFO  [Thread-1]: org.jivesoftware.openfire.XMPPServer - Shutting down plugins ...
+2017.11.18 17:15:48 INFO  [Thread-1]: org.jivesoftware.openfire.container.PluginManager - Shutting down. Unloading all installed plugins...
+2017.11.18 17:15:48 INFO  [Thread-1]: org.jivesoftware.openfire.container.PluginManager - Unloaded plugin 'admin'.
+2017.11.18 17:15:48 INFO  [Thread-1]: org.jivesoftware.openfire.container.PluginManager - Unloaded plugin 'sendmsg'.
+2017.11.18 17:15:48 INFO  [Thread-1]: org.jivesoftware.openfire.XMPPServer - Openfire stopped
+2017.11.18 17:15:48 INFO  [Thread-1]: org.jivesoftware.openfire.XMPPServer - Server halted
+2017.11.18 17:22:18 INFO  [main]: org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2017.11.18 17:22:18 INFO  [main]: org.logicalcobwebs.proxool.ProxoolFacade - Proxool 0.9.0RC3+ (February 6 2008)
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Servers Cache
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Components Cache
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Users Cache
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing AnonymousUsers Cache
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing User Sessions
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Roster
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Multicast Service
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Message Size
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for VCard
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Privacy Lists
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer Cache
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Presence Cache
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Last Activity Cache
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Components Sessions
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Connection Managers Sessions
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Incoming Server Sessions
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Sessions by Hostname
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Validated Domains
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Client Session Info Cache
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities Users
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Directed Presences
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for PEPServiceManager
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Published Items
+2017.11.18 17:22:19 INFO  [main]: org.logicalcobwebs.proxool.openfire - Proxool statistics legend: "s - r  (a/t/o)" > s=served, r=refused (only shown if non-zero), a=active, t=total, o=offline (being tested)
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Features
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Items
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.openfire.pubsub.PubSubModule - 发布-订阅域：pubsub.gnet-openfire
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - 多用户聊天域：conference.gnet-openfire
+2017.11.18 17:22:19 INFO  [main]: org.jivesoftware.openfire.XMPPServer - Openfire 4.1.6 [2017-11-18 17:22:19]
+2017.11.18 17:22:20 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2017.11.18 17:22:20 INFO  [pool-3-thread-1]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2017.11.18 17:22:20 INFO  [pool-3-thread-1]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2017.11.18 17:22:20 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.AdminConsolePlugin - 管理平台开始监听:
+  http://gnet-openfire:9703
+  https://gnet-openfire:9705
+2017.11.18 17:22:20 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'admin'.
+2017.11.18 17:22:20 INFO  [pool-4-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'sendmsg'.
+2017.11.18 17:22:21 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.container.PluginMonitor - Finished processing all plugins.
+2017.11.18 17:22:21 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2017.11.18 17:22:21 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Started.
+2017.11.18 17:22:21 WARN  [pool-3-thread-1]: org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2017.11.18 17:22:21 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+2017.11.18 17:22:21 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+2017.11.18 17:22:21 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+2017.11.18 17:22:21 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+2017.11.18 17:22:21 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+2017.11.18 17:22:21 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2017.11.18 17:22:21 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
+2017.11.18 17:22:21 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+2017.11.18 17:22:21 INFO  [pool-3-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2017.11.18 18:01:11 INFO  [Shutdown Hook]: org.logicalcobwebs.proxool.openfire - Shutting down 'openfire' pool immediately [Shutdown Hook]
+2017.11.18 18:01:11 INFO  [Thread-1]: org.jivesoftware.openfire.XMPPServer - Shutting down 49 modules ...
+2017.11.18 18:01:11 INFO  [Shutdown Hook]: org.logicalcobwebs.proxool.PrototyperController - Stopping Prototyper thread
+2017.11.18 18:01:11 INFO  [Shutdown Hook]: org.logicalcobwebs.proxool.HouseKeeperController - Stopping HouseKeeper thread
+2017.11.18 18:01:11 INFO  [Thread-1]: org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2017.11.18 18:01:11 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Stopped.
+2017.11.18 18:01:11 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Stopped.
+2017.11.18 18:01:11 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Stopped.
+2017.11.18 18:01:11 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component] - Stopped.
+2017.11.18 18:01:11 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Stopped.
+2017.11.18 18:01:11 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Stopped.
+2017.11.18 18:01:11 INFO  [Thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Stopped.
+2017.11.18 18:01:11 INFO  [Thread-1]: org.jivesoftware.openfire.http.HttpSessionManager - Stopping instance
+2017.11.18 18:01:11 INFO  [Thread-1]: org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service stopped
+2017.11.18 18:01:11 INFO  [Thread-1]: org.jivesoftware.openfire.XMPPServer - Shutting down plugins ...
+2017.11.18 18:01:11 INFO  [Thread-1]: org.jivesoftware.openfire.container.PluginManager - Shutting down. Unloading all installed plugins...
+2017.11.18 18:01:11 INFO  [Thread-1]: org.jivesoftware.openfire.container.PluginManager - Unloaded plugin 'admin'.
+2017.11.18 18:01:11 INFO  [Thread-1]: org.jivesoftware.openfire.container.PluginManager - Unloaded plugin 'sendmsg'.
+2017.11.18 18:01:11 INFO  [Thread-1]: org.jivesoftware.openfire.XMPPServer - Openfire stopped
+2017.11.18 18:01:11 INFO  [Thread-1]: org.jivesoftware.openfire.XMPPServer - Server halted
