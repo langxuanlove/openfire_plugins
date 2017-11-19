@@ -32,7 +32,7 @@ public class PubSubManager {
 	public List<NodeSubscription> getTopticSubscribers(String topicId){
 		List<NodeSubscription> list = new ArrayList<NodeSubscription>();
 		Node node = pubSubModule.getNode(topicId);
-		list.addAll(node.getSubscriptions());
+		list.addAll(node.getAllSubscriptions());
 		return list;
 	}
 	

@@ -57,8 +57,8 @@
     <defaultProvider> 
       <driver>com.mysql.jdbc.Driver</driver>  
       <serverURL>jdbc:mysql://127.0.0.1:3306/openfire_msg?rewriteBatchedStatements=true</serverURL>  
-      <username encrypted="true">3cdb5802586f418cc6aaeb6b7f20edf265e11c7e86a624c4</username>  
-      <password encrypted="true">69adca70d4479a434e25e5ce77488d8f2148b7636e6e2f66</password>  
+      <username encrypted="true">9b772ad1811135309d389c999ca3cbdeb0e108aecf7e5e38</username>  
+      <password encrypted="true">f83cf408cb07bd1548a428c776af934f46b7475a5e981bb0</password>  
       <testSQL>select 1</testSQL>  
       <testBeforeUse>false</testBeforeUse>  
       <testAfterUse>false</testAfterUse>  
